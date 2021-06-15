@@ -26,5 +26,8 @@
   "bugs": {
     "url": "https://github.com/HouXingYi/h-cli-test/issues"
   },
-  "gitHead": "6a321bb4ea5d0cb02d6426c1a05122b72cf4f7c6"
+  "gitHead": "6a321bb4ea5d0cb02d6426c1a05122b72cf4f7c6",
+  "publishConfig": {
+    "access": "public"
+  }
 }
