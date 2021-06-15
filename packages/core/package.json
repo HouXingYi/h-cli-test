@@ -1,6 +1,6 @@
 {
   "name": "@h-cli-test/core",
-  "version": "1.0.2",
+  "version": "1.0.0",
   "description": "> TODO: description",
   "author": "houxingyi <1026043046@qq.com>",
   "homepage": "https://github.com/HouXingYi/h-cli-test/tree/main/packages/core#readme",
@@ -26,5 +26,5 @@
   "bugs": {
     "url": "https://github.com/HouXingYi/h-cli-test/issues"
   },
-  "gitHead": "ac74c2870bcdb5459acd4c1d8f360e70621779af"
+  "gitHead": "6a321bb4ea5d0cb02d6426c1a05122b72cf4f7c6"
 }
