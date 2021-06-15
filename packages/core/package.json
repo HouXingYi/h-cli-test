@@ -6,6 +6,9 @@
   "homepage": "https://github.com/HouXingYi/h-cli-test/tree/main/packages/core#readme",
   "license": "ISC",
   "main": "lib/core.js",
+  "bin": {
+    "h-cli-test": "bin/index.js"
+  },
   "directories": {
     "lib": "lib",
     "test": "__tests__"
@@ -22,5 +25,6 @@
   },
   "bugs": {
     "url": "https://github.com/HouXingYi/h-cli-test/issues"
-  }
+  },
+  "gitHead": "ac74c2870bcdb5459acd4c1d8f360e70621779af"
 }
