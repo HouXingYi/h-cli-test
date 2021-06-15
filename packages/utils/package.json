@@ -1,0 +1,26 @@
+{
+  "name": "@h-cli-test/utils",
+  "version": "1.0.0",
+  "description": "> TODO: description",
+  "author": "houxingyi <1026043046@qq.com>",
+  "homepage": "https://github.com/HouXingYi/h-cli-test/tree/main/packages/utils#readme",
+  "license": "ISC",
+  "main": "lib/utils.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HouXingYi/h-cli-test.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/HouXingYi/h-cli-test/issues"
+  }
+}
