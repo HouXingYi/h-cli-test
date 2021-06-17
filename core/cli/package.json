@@ -24,9 +24,15 @@
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "dependencies": {
+    "@h-cli-test/log": "file:../../utils/log",
     "@h-cli-test/utils": "file:../../utils/utils",
+    "colors": "^1.4.0",
     "import-local": "^3.0.2",
-    "npmlog": "^4.1.2"
+    "npmlog": "^4.1.2",
+    "path-exists": "^4.0.0",
+    "root-check": "^1.0.0",
+    "semver": "^7.3.5",
+    "user-home": "^3.0.0"
   },
   "bugs": {
     "url": "https://github.com/HouXingYi/h-cli-test/issues"
