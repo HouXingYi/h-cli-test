@@ -7,7 +7,7 @@
   "license": "ISC",
   "main": "lib/core.js",
   "bin": {
-    "h-cli-test": "bin/index.js"
+    " ": "bin/index.js"
   },
   "directories": {
     "lib": "lib",
@@ -22,6 +22,11 @@
   },
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "dependencies": {
+    "@h-cli-test/utils": "file:../../utils/utils",
+    "import-local": "^3.0.2",
+    "npmlog": "^4.1.2"
   },
   "bugs": {
     "url": "https://github.com/HouXingYi/h-cli-test/issues"
