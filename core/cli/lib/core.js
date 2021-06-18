@@ -5,7 +5,7 @@ const colors = require('colors/safe');
 const utils = require("@h-cli-test/utils");
 const log = require("@h-cli-test/log");
 const constant = require('./const');
-let args;
+let args, config;
 
 
 console.log('utils 被调用了, 通过file 引用的，十分方便');
@@ -28,9 +28,18 @@ function core() {
         log.success('success', 'test 这样打印会比较漂亮, 自定义的log');
         log.info('debug', 'test debug log');
         log.verbose('debug', 'test debug log');
+        checkEnv();
     } catch (e) {
         log.error('error', '报错啦');
     }
+}
+
+
+function checkEnv() {
+    const dotenv = require('dotenv');
+
+    config = dotenv.config();
+    log.verbose('环境变量', config);
 }
 
 function checkInputArgs() {
