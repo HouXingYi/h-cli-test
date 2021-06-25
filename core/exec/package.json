@@ -1,6 +1,6 @@
 {
   "name": "@h-cli-test/exec",
-  "version": "1.0.0",
+  "version": "1.0.5",
   "description": "h-cli-test execute package",
   "author": "sam <247765564@qq.com>",
   "homepage": "",
@@ -24,8 +24,8 @@
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "dependencies": {
-    "@h-cli-test/package": "file:../../models/package",
     "@h-cli-test/log": "file:../../utils/log",
+    "@h-cli-test/package": "file:../../models/package",
     "@h-cli-test/utils": "file:../../utils/utils"
   }
 }

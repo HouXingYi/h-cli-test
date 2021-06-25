@@ -1,6 +1,6 @@
 {
   "name": "@h-cli-test/core",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "h-cli-test core",
   "author": "sam <247765564@qq.com>",
   "homepage": "",
@@ -24,10 +24,10 @@
     "test": "echo \"Run testing from core\""
   },
   "dependencies": {
-    "@h-cli-test/get-npm-info": "file:../../utils/get-npm-info",
     "@h-cli-test/exec": "file:../exec",
-    "@h-cli-test/log": "file:../../utils/log",
+    "@h-cli-test/get-npm-info": "file:../../utils/get-npm-info",
     "@h-cli-test/init": "file:../../commands/init",
+    "@h-cli-test/log": "file:../../utils/log",
     "colors": "^1.4.0",
     "commander": "^6.2.1",
     "dotenv": "^8.2.0",
