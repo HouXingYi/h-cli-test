@@ -226,6 +226,7 @@ class InitCommand extends Command {
   }
 
   async prepare() {
+    // log.verbose('判断项目模板是否存在')
     // 0. 判断项目模板是否存在
     const template = await getProjectTemplate();
     if (!template || template.length === 0) {
