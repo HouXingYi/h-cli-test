@@ -2,22 +2,13 @@
   "name": "h-cli-test",
   "version": "1.0.0",
   "description": "",
-  "main": "test.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/HouXingYi/h-cli-test.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/HouXingYi/h-cli-test/issues"
-  },
-  "homepage": "https://github.com/HouXingYi/h-cli-test#readme",
   "devDependencies": {
-    "lerna": "^4.0.0"
+    "lerna": "^3.22.1"
   }
 }

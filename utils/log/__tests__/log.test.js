@@ -1,6 +1,6 @@
 'use strict';
 
-const log = require('../lib');
+const log = require('..');
 
 describe('@h-cli-test/log', () => {
     it('needs tests');

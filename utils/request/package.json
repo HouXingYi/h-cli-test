@@ -1,10 +1,7 @@
 {
-  "name": "@h-cli-test/log",
-  "version": "1.0.4",
-  "description": "h-cli-test log",
-  "keywords": [
-    "log"
-  ],
+  "name": "@h-cli-test/request",
+  "version": "1.0.0",
+  "description": "> TODO: description",
   "author": "sam <247765564@qq.com>",
   "homepage": "",
   "license": "ISC",
@@ -21,12 +18,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@gitee.com:sam9831/h-cli-test.git"
+    "url": "git+https://github.com/HouXingYi/h-cli-test.git"
   },
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "dependencies": {
-    "npmlog": "^4.1.2"
+    "axios": "^0.21.1"
   }
 }

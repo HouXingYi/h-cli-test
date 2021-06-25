@@ -1,10 +1,7 @@
 {
-  "name": "@h-cli-test/log",
+  "name": "get-npm-info",
   "version": "1.0.4",
-  "description": "h-cli-test log",
-  "keywords": [
-    "log"
-  ],
+  "description": "get npm info",
   "author": "sam <247765564@qq.com>",
   "homepage": "",
   "license": "ISC",
@@ -16,9 +13,6 @@
   "files": [
     "lib"
   ],
-  "publishConfig": {
-    "access": "public"
-  },
   "repository": {
     "type": "git",
     "url": "git@gitee.com:sam9831/h-cli-test.git"
@@ -27,6 +21,8 @@
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "dependencies": {
-    "npmlog": "^4.1.2"
+    "axios": "^0.21.0",
+    "semver": "^7.3.4",
+    "url-join": "^4.0.1"
   }
 }
