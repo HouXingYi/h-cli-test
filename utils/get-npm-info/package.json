@@ -1,8 +1,8 @@
 {
-  "name": "get-npm-info",
+  "name": "@h-cli-test/get-npm-info",
   "version": "1.0.8",
   "description": "get npm info",
-  "author": "sam <247765564@qq.com>",
+  "author": "houxingyi <1026043046@qq.com>",
   "homepage": "",
   "license": "ISC",
   "main": "lib/index.js",
@@ -15,7 +15,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git@gitee.com:sam9831/h-cli-test.git"
+    "url": "git@github.com:HouXingYi/h-cli-test.git"
   },
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1"
@@ -24,5 +24,8 @@
     "axios": "^0.21.0",
     "semver": "^7.3.4",
     "url-join": "^4.0.1"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }

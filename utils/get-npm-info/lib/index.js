@@ -4,6 +4,7 @@ const axios = require('axios');
 const urlJoin = require('url-join');
 const semver = require('semver');
 
+// 获取npminfo
 function getNpmInfo(npmName, registry) {
   if (!npmName) {
     return null;
