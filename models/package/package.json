@@ -1,6 +1,6 @@
 {
   "name": "@h-cli-test/package",
-  "version": "1.0.14",
+  "version": "1.0.15",
   "description": "h-cli-test npm modules",
   "author": "sam <247765564@qq.com>",
   "homepage": "",
@@ -24,12 +24,13 @@
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "dependencies": {
-    "@h-cli-test/format-path": "file:../../utils/format-path",
-    "@h-cli-test/get-npm-info": "file:../../utils/get-npm-info",
-    "@h-cli-test/utils": "file:../../utils/utils",
+    "@h-cli-test/format-path": "^1.0.15",
+    "@h-cli-test/get-npm-info": "^1.0.15",
+    "@h-cli-test/utils": "^1.0.15",
     "fs-extra": "^9.0.1",
     "npminstall": "^4.10.0",
     "path-exists": "^4.0.0",
     "pkg-dir": "^5.0.0"
-  }
+  },
+  "gitHead": "fddf681976e03a89c72d677cdaaa41ba859a0638"
 }

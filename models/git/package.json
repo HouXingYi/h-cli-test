@@ -1,6 +1,6 @@
 {
   "name": "@h-cli-test/git",
-  "version": "1.0.14",
+  "version": "1.0.15",
   "description": "> TODO: description",
   "author": "sam <247765564@qq.com>",
   "homepage": "",
@@ -21,8 +21,8 @@
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "dependencies": {
-    "@h-cli-test/log": "file:../../utils/log",
-    "@h-cli-test/utils": "file:../../utils/utils",
+    "@h-cli-test/log": "^1.0.15",
+    "@h-cli-test/utils": "^1.0.15",
     "axios": "^0.21.1",
     "fs-extra": "^10.0.0",
     "inquirer": "^8.1.0",
@@ -30,5 +30,6 @@
     "simple-git": "^2.39.0",
     "terminal-link": "^2.1.1",
     "user-home": "^3.0.0"
-  }
+  },
+  "gitHead": "fddf681976e03a89c72d677cdaaa41ba859a0638"
 }

@@ -1,6 +1,6 @@
 {
   "name": "@h-cli-test/get-npm-info",
-  "version": "1.0.14",
+  "version": "1.0.15",
   "description": "get npm info",
   "author": "houxingyi <1026043046@qq.com>",
   "homepage": "",
@@ -27,5 +27,6 @@
   },
   "publishConfig": {
     "access": "public"
-  }
+  },
+  "gitHead": "fddf681976e03a89c72d677cdaaa41ba859a0638"
 }

@@ -1,6 +1,6 @@
 {
   "name": "@h-cli-test/init",
-  "version": "1.0.14",
+  "version": "1.0.15",
   "description": "h-cli-test init",
   "author": "sam <247765564@qq.com>",
   "homepage": "",
@@ -24,11 +24,11 @@
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "dependencies": {
-    "@h-cli-test/command": "file:../../models/command",
-    "@h-cli-test/log": "file:../../utils/log",
-    "@h-cli-test/package": "file:../../models/package",
-    "@h-cli-test/request": "file:../../utils/request",
-    "@h-cli-test/utils": "file:../../utils/utils",
+    "@h-cli-test/command": "^1.0.15",
+    "@h-cli-test/log": "^1.0.15",
+    "@h-cli-test/package": "^1.0.15",
+    "@h-cli-test/request": "^1.0.15",
+    "@h-cli-test/utils": "^1.0.15",
     "ejs": "^3.1.5",
     "fs-extra": "^9.0.1",
     "glob": "^7.1.6",
@@ -37,5 +37,6 @@
     "semver": "^7.3.4",
     "spinner": "^0.3.4",
     "user-home": "^2.0.0"
-  }
+  },
+  "gitHead": "fddf681976e03a89c72d677cdaaa41ba859a0638"
 }

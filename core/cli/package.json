@@ -1,6 +1,6 @@
 {
   "name": "@h-cli-test/core",
-  "version": "1.0.14",
+  "version": "1.0.15",
   "description": "h-cli-test core",
   "author": "houxingyi <1026043046@qq.com>",
   "homepage": "",
@@ -24,10 +24,10 @@
     "test": "echo \"Run testing from core\""
   },
   "dependencies": {
-    "@h-cli-test/exec": "file:../exec",
-    "@h-cli-test/get-npm-info": "file:../../utils/get-npm-info",
-    "@h-cli-test/init": "file:../../commands/init",
-    "@h-cli-test/log": "file:../../utils/log",
+    "@h-cli-test/exec": "^1.0.15",
+    "@h-cli-test/get-npm-info": "^1.0.15",
+    "@h-cli-test/init": "^1.0.15",
+    "@h-cli-test/log": "^1.0.15",
     "colors": "^1.4.0",
     "commander": "^6.2.1",
     "dotenv": "^8.2.0",
@@ -38,7 +38,7 @@
     "semver": "^7.3.4",
     "user-home": "^2.0.0"
   },
-  "gitHead": "ad99cd763be44ac7ec0a97cb233ce8d0f93d0b96",
+  "gitHead": "fddf681976e03a89c72d677cdaaa41ba859a0638",
   "publishConfig": {
     "access": "public"
   }
