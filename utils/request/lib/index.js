@@ -1,10 +1,11 @@
 'use strict';
 
 const axios = require('axios');
+const log = require('@h-cli-test/log');
 
 log.verbose('process.env.CLI_BASE_URL', process.env.CLI_BASE_URL);
 const BASE_URL = process.env.CLI_BASE_URL ? process.env.CLI_BASE_URL :
-  'localhost:7001';
+  'http://1.117.67.249:7001';
 
 const request = axios.create({
   baseURL: BASE_URL,
