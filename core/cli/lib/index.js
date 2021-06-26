@@ -29,7 +29,6 @@ async function core() {
 }
 
 function registerCommand() {
-  
   program
     .name(Object.keys(pkg.bin)[0])
     .usage('<command> [options]')
