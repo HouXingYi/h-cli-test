@@ -1,6 +1,6 @@
 {
   "name": "@h-cli-test/exec",
-  "version": "1.0.15",
+  "version": "1.0.16",
   "description": "h-cli-test execute package",
   "author": "houxingyi <1026043046@qq.com>",
   "homepage": "",
@@ -21,9 +21,9 @@
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "dependencies": {
-    "@h-cli-test/log": "^1.0.15",
-    "@h-cli-test/package": "^1.0.15",
-    "@h-cli-test/utils": "^1.0.15"
+    "@h-cli-test/log": "^1.0.16",
+    "@h-cli-test/package": "^1.0.16",
+    "@h-cli-test/utils": "^1.0.16"
   },
   "gitHead": "318cb81d50610743fe5acaa7d2308f61f217994f",
   "publishConfig": {
