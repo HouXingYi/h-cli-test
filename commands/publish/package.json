@@ -13,9 +13,6 @@
   "files": [
     "lib"
   ],
-  "publishConfig": {
-    "access": "public"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/HouXingYi/h-cli-test.git"
@@ -29,5 +26,8 @@
     "@h-cli-test/log": "^1.0.15",
     "fs-extra": "^10.0.0"
   },
-  "gitHead": "318cb81d50610743fe5acaa7d2308f61f217994f"
+  "gitHead": "318cb81d50610743fe5acaa7d2308f61f217994f",
+  "publishConfig": {
+    "access": "public"
+  }
 }

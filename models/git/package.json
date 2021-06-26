@@ -31,5 +31,8 @@
     "terminal-link": "^2.1.1",
     "user-home": "^3.0.0"
   },
-  "gitHead": "318cb81d50610743fe5acaa7d2308f61f217994f"
+  "gitHead": "318cb81d50610743fe5acaa7d2308f61f217994f",
+  "publishConfig": {
+    "access": "public"
+  }
 }
